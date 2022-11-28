@@ -6,56 +6,52 @@ As a senior data analyst at the company, you've been given access to the complet
 
 The executive team has tasked you with generating all of the tables and figures needed for the technical report of the clinical study. They have also asked you for a top-level summary of the study results.
 
-Files
-Download the following files to help you get started:
-
-Module 5 Challenge filesLinks to an external site.
 
 Instructions
 This assignment is broken down into the following tasks:
 
-Prepare the data.
+1. Prepare the data.
 
-Generate summary statistics.
+2. Generate summary statistics.
 
-Create bar charts and pie charts.
+3. Create bar charts and pie charts.
 
-Calculate quartiles, find outliers, and create a box plot.
+4. Calculate quartiles, find outliers, and create a box plot.
 
-Create a line plot and a scatter plot.
+5. Create a line plot and a scatter plot.
 
-Calculate correlation and regression.
+6. Calculate correlation and regression.
 
-Submit your final analysis.
+7. Submit your final analysis.
 
 Prepare the Data
-Run the provided package dependency and data imports, and then merge the mouse_metadata and study_results DataFrames into a single DataFrame.
+1. Run the provided package dependency and data imports, and then merge the mouse_metadata and study_results DataFrames into a single DataFrame.
 
-Display the number of unique mice IDs in the data, and then check for any mouse ID with duplicate time points. Display the data associated with that mouse ID, and then create a new DataFrame where this data is removed. Use this cleaned DataFrame for the remaining steps.
+2. Display the number of unique mice IDs in the data, and then check for any mouse ID with duplicate time points. Display the data associated with that mouse ID, and then create a new DataFrame where this data is removed. Use this cleaned DataFrame for the remaining steps.
 
-Display the updated number of unique mice IDs.
+3. Display the updated number of unique mice IDs.
 
 Generate Summary Statistics
-Create a DataFrame of summary statistics. Remember, there is more than one method to produce the results you're after, so the method you use is less important than the result.
+1. Create a DataFrame of summary statistics. Remember, there is more than one method to produce the results you're after, so the method you use is less important than the result.
 
 Your summary statistics should include:
 
-A row for each drug regimen. These regimen names should be contained in the index column.
+1. A row for each drug regimen. These regimen names should be contained in the index column.
 
-A column for each of the following statistics: mean, median, variance, standard deviation, and SEM of the tumor volume.
+2. A column for each of the following statistics: mean, median, variance, standard deviation, and SEM of the tumor volume.
 
 Create Bar Charts and Pie Charts
-Generate two bar charts. Both charts should be identical and show the total number of time points for all mice tested for each drug regimen throughout the study.
+1. Generate two bar charts. Both charts should be identical and show the total number of time points for all mice tested for each drug regimen throughout the study.
 
-Create the first bar chart with the Pandas DataFrame.plot() method.
+2. Create the first bar chart with the Pandas DataFrame.plot() method.
 
-Create the second bar chart with Matplotlib's pyplot methods.
+3. Create the second bar chart with Matplotlib's pyplot methods.
 
-Generate two pie charts. Both charts should be identical and show the distribution of female versus male mice in the study.
+4. Generate two pie charts. Both charts should be identical and show the distribution of female versus male mice in the study.
 
-Create the first pie chart with the Pandas DataFrame.plot() method.
+5. Create the first pie chart with the Pandas DataFrame.plot() method.
 
-Create the second pie chart with Matplotlib's pyplot methods.
+6. Create the second pie chart with Matplotlib's pyplot methods.
 
 Calculate Quartiles, Find Outliers, and Create a Box Plot
 Calculate the final tumor volume of each mouse across four of the most promising treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin. Then, calculate the quartiles and IQR, and determine if there are any potential outliers across all four treatment regimens. Use the following substeps:
